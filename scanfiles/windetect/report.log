@@ -1,0 +1,13 @@
+Found compatible FileObj observable with id: openioc:Observable-d159c84a-f109-4f63-a14f-dcf91aae57e6
+Found compatible FileObj observable with id: openioc:Observable-48225b72-0a13-4408-8bb6-df5b7f1a59fd
+Found compatible FileObj observable with id: openioc:Observable-f01bdfec-aaf2-4b3b-986a-eec4bb481a2a
+Found compatible ProcessObj observable with id: openioc:Observable-ad1eabce-0d95-43d3-a14a-51af5f1579cc
+Found compatible WinEventLogObj observable with id: openioc:Observable-71c2f31c-65a2-4000-a703-5bb7a89ff941
+Found compatible ProcessObj observable with id: openioc:Observable-7ea5bb4c-cc28-4d69-886e-2ae5396b1322
+Found compatible WinRegistryKeyObj observable with id: openioc:Observable-339a66ca-c5d7-47ab-9321-cf5b50a56497
+Found compatible PortObj observable with id: openioc:Observable-c3bf3896-97a3-40fd-8764-ed8baadec4b0
+Found compatible DiskObj observable with id: openioc:Observable-326c6439-9560-4c74-aeaa-75d3a368a0cd
+Unknown type: WinKernelHookObjin object: openioc:Observable-3150ec69-b9e5-4efb-ac17-e89f54f62e0d
+Found compatible FileObj observable with id: openioc:Observable-79d110ef-e58e-42bd-bda8-1145e27299f0
+Found compatible FileObj observable with id: openioc:Observable-15460663-e1db-4bf3-af91-75383e2cb868
+Found compatible FileObj observable with id: openioc:Observable-dcfa3920-489d-4746-9422-9c5d147b1642

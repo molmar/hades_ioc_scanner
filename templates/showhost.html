@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block body %}
+  <div class="menubar">
+    <div class="bigbuttons">
+      <a class="btn" href="{{ url_for('scans') }}">Scans</a>
+      <a class="btn" href="{{ url_for('hosts') }}">Hosts</a>
+      <a class="btn" href="{{ url_for('iocs') }}">IOCs</a>
+    </div>
+    <div class="smallbuttons">
+      <a class="btn" href="{{ url_for('createhost') }}">New</a>
+      <a class="btn">Export</a>
+      <a class="btn">Delete</a>
+      <a class="btn" href="{{ url_for('logout') }}">Logout</a>
+    </div>
+  </div>
+  <div class="page">
+  <div class="contentpane">
+    <h2>Name:</h2>
+    <div class="entry">{{ host.name }}</div>
+    <h2>Address:</h2>
+    <div class="entry">{{ host.address }}:{{ host.port }}</div>
+    <h2>Credentials:</h2>
+    <div class="entry">{{ host.username }}:{{ password }}</div>
+    <h2>Type:</h2>
+    <div class="entry">{{ host.type }}</div>
+  </div>
+  <div class="datapane">
+    data...
+  </div>
+  </div>
+{% endblock %}

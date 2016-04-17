@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block body %}
+  <div class="menubar">
+    <div class="bigbuttons">
+      <a class="btn" href="{{ url_for('scans') }}">Scans</a>
+      <a class="btn" href="{{ url_for('hosts') }}">Hosts</a>
+      <a class="btn" href="{{ url_for('iocs') }}">IOCs</a>
+    </div>
+    <div class="smallbuttons">
+      <a class="btn" href="{{ url_for('createscan') }}">New</a>
+      <a class="btn" href="{{ url_for('createscan') }}?id={{ id }}">Export</a>
+      <a class="btn">Delete</a>
+      <a class="btn" href="{{ url_for('logout') }}">Logout</a>
+    </div>
+  </div>
+  <div class="page">
+  <div class="contentpane">
+    <h2>Name:</h2>
+    <div class="entry">{{ ioc.name }}</div>
+    <h2>Date:</h2>
+    <div class="entry">{{ ioc.date }}</div>
+    <h2>Conversion report:</h2>
+    <div class="entry">
+    {% for line in report %}
+    {{ line }}
+    <br>
+    {% endfor %}
+    </div>
+    <h2>Imported objects:</h2>
+    <div class="entry">
+    {% for line in scanreadable %}
+    {{ line }}
+    <br>
+    {% endfor %}
+    </div>
+  </div>
+  <div class="datapane">
+    <h2>Hosts:</h2>
+  </div>
+  </div>
+{% endblock %}

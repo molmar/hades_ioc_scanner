@@ -1,0 +1,71 @@
+<!--http://www.applicationgroup.com/tutorials/DualListBox/DualListBox_JS_Source.asp-->
+{% extends "layout.html" %}
+{% block body %}
+  {% if session.logged_in %}
+    <script type="text/javascript" src="{{ url_for('static', filename='dualbox.js') }}"></script>
+    <script type="text/javascript">
+      function frmSubmit() {
+        var si1 = document.getElementById("selectedItems1");
+        var si2 = document.getElementById("selectedItems2");
+        for (i=0;i<si1.options.length;i++) { si1.options[i].selected = true; }
+        for (i=0;i<si2.options.length;i++) { si2.options[i].selected = true; }
+        document.form1.submit(); }
+    </script>
+    <div class="menubar">
+      <div class="bigbuttons">
+        <a class="btn" href="{{ url_for('scans') }}">Scans</a>
+        <a class="btn" href="{{ url_for('hosts') }}">Hosts</a>
+        <a class="btn">IOCs</a>
+      </div>
+      <div class="smallbuttons">
+        <a class="btn" href="{{ url_for('logout') }}">Logout</a>
+      </div>
+    </div>
+    <div class="page">
+    <div class="contentpane">
+      <form name="form1" id="form1" method="post" action="{{ url_for('addscan') }}"> 
+      <h2>Name</h>
+      <div>
+      <input type="text" size="30" name="title" class="selector">
+      </div>
+      <h2>Hosts</h2>
+        <div>
+        <select size="10" multiple name="availableItems" id="availableItems1" class="selector">
+          {% for host in hosts %}
+            <option value="{{ host.id }}">{{ host.name }}</option>
+          {% endfor %}
+        </select>
+        <div class="buttonarray">
+          <input type="button" class="btn" value="+" onclick="addItems(1);" />
+          <input type="button" class="btn" value="+++" onclick="addAll(1);" />
+          <input type="button" class="btn" value="-" onclick="removeItems(1);" />
+          <input type="button" class="btn" value="---" onclick="removeAll(1);" />
+        </div>
+          <select size="10" multiple="multiple" name="selectedhosts" id="selectedItems1" class="selector">
+          </select>
+        </div>
+        <h2>IOCs</h2>
+        <div>
+        <select size="10" multiple name="availableItems" id="availableItems2" class="selector">
+          {% for ioc in iocs %}
+            <option value="{{ ioc.id }}">{{ ioc.name }}</option>
+          {% endfor %}
+        </select>
+        <div class="buttonarray">
+          <input type="button" class="btn" value="+" onclick="addItems(2);" />
+          <input type="button" class="btn" value="+++" onclick="addAll(2);" />
+          <input type="button" class="btn" value="-" onclick="removeItems(2);" />
+          <input type="button" class="btn" value="---" onclick="removeAll(2);" />
+        </div>
+          <select size="10" multiple="multiple" name="selectediocs" id="selectedItems2" class="selector">
+          </select>
+        </div>
+      </form>
+      <input type="button" class="btn" value="Save" onclick="frmSubmit()" />
+    </div>
+    <div class="datapane">
+      data...
+    </div>
+    </div>
+  {% endif %}
+{% endblock %}

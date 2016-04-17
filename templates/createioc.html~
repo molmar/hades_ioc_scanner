@@ -1,0 +1,38 @@
+<!--http://www.applicationgroup.com/tutorials/DualListBox/DualListBox_JS_Source.asp-->
+{% extends "layout.html" %}
+{% block body %}
+  {% if session.logged_in %}
+    <script type="text/javascript">
+      function frmSubmit() {
+        document.form1.submit(); }
+    </script>
+    <div class="menubar">
+      <div class="bigbuttons">
+        <a class="btn" href="{{ url_for('scans') }}">Scans</a>
+        <a class="btn" href="{{ url_for('hosts') }}">Hosts</a>>
+        <a class="btn">IOCs</a>
+      </div>
+      <div class="smallbuttons">
+        <a class="btn" href="{{ url_for('logout') }}">Logout</a>
+      </div>
+    </div>
+    <div class="page">
+    <div class="contentpane">
+      <form name="form1" id="form1" method="post" action="{{ url_for('addioc') }}" enctype=multipart/form-data> 
+      <h2>Name</h>
+      <div>
+      <input type="text" size="30" name="name" class="selector">
+      </div>
+      <h2>File</h>
+      <div>
+      <input type=file name=file class=selector>
+      </div>
+      </form>
+      <input type="button" class="btn" value="Save" onclick="frmSubmit()" />
+    </div>
+    <div class="datapane">
+      data...
+    </div>
+    </div>
+  {% endif %}
+{% endblock %}

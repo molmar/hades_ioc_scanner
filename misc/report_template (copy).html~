@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { 
+  height:100%; 
+}
+
+body {
+  background-color: #E2D893;
+  height: 100%;
+  font-family: Arial;
+}
+
+.contentpane {
+  background: #FFF;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 20px;
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  -webkit-flex: 1;
+          flex: 1;
+  margin: 10px;
+}
+
+.entry {
+  background: #5F9DA1;
+  color: #FFFFFF;
+  padding: 4px;
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  margin-bottom: 4px;  
+}
+
+</style>
+</head>
+<body>
+<div class="contentpane" name="sysinfo">
+	<h1>System information</h1>
+	<h2>Hostname</h2>
+	<div class="entry">{hostname}</div>
+	<h2>OS</h2>
+	<div class="entry">{os}</div>
+	<h2>User</h2>
+	<div class="entry">{user}</div>
+	<h2>Local time</h2>
+	<div class="entry">{localtime}</div>
+	<h2>Scan result</h2>
+	<div class="entry">{result}</div>
+</div>
+{checklist}
+<div class="contentpane" name="sysinfo">
+	<h2>Name</h2>
+	<div class="entry">{name}</div>
+	<h2>Result</h2>
+	<div class="entry">{result}</div>
+	<h2>Reason</h2>
+	<div class="entry">{reason}</div>
+</div>
+</body>
+</html>

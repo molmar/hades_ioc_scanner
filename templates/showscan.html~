@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+{% block body %}
+  <div class="menubar">
+    <div class="bigbuttons">
+      <a class="btn" href="{{ url_for('scans') }}">Scans</a>
+      <a class="btn" href="{{ url_for('hosts') }}">Hosts</a>
+      <a class="btn" href="{{ url_for('iocs') }}">IOCs</a>
+    </div>
+    <div class="smallbuttons">
+      <a class="btn" href="{{ url_for('createscan') }}">New</a>
+      <a class="btn">Export</a>
+      <a class="btn">Delete</a>
+      <a class="btn" href="{{ url_for('logout') }}">Logout</a>
+    </div>
+  </div>
+  <div class="page">
+  <div class="contentpane">
+    <h2>Name:</h2>
+    <div class="entry">{{ scan.name }}</div>
+    <h2>Run date:</h2>
+    <div class="entry">{{ scan.lastrun }}</div>
+    <h2>Report:</h2>
+    <div class="entry">{{ scan.report }}</div>
+  </div>
+  <div class="datapane">
+    <h2>Hosts:</h2>
+    {% for host in hosts %}
+    <div class="entry">{{ host.name }}</div>
+    {% else %}
+    <div class="entry">No hosts attached.</div>
+    {% endfor %}
+    <h2>IOCs:</h2>
+    {% for ioc in iocs %}
+    <div class="entry">{{ ioc.name }}</div>
+    {% else %}
+    <div class="entry">No IOCs attached.</div>
+    {% endfor %}
+  </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block body %}
+  <div class="menubar">
+    <div class="bigbuttons">
+      <a class="btn" href="{{ url_for('scans') }}">Scans</a>
+      <a class="btn" href="{{ url_for('hosts') }}">Hosts</a>
+      <a class="btn" href="{{ url_for('iocs') }}">IOCs</a>
+    </div>
+    <div class="smallbuttons">
+      <a class="btn",  href="{{ url_for('createioc') }}">New</a>
+      <a class="btn", href="{{ url_for('logout') }}">Logout</a>
+    </div>
+  </div>
+  <div class="page">
+  <div class="contentpane">
+    {% for ioc in iocs %}
+      <div class="entry"><a href="{{ url_for('showioc') }}?id={{ ioc.id }}">{{ ioc.name }}</a> - {{ ioc.date|safe }}</div>
+    {% else %}
+      <div>No iocs here so far</div>
+    {% endfor %}
+  </div>
+  <div class="datapane">
+    data...
+  </div>
+  </div>
+{% endblock %}

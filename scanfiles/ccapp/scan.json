@@ -1,0 +1,139 @@
+{
+    "observables": [
+        {
+            "id": "openioc:item-d610019c-379f-4d3e-b299-f0b0e5c3313a", 
+            "observable_composition": {
+                "operator": "OR", 
+                "observables": [
+                    {
+                        "object": {
+                            "id": "openioc:File-78b6f585-4d8b-4c3d-8efb-3f4f6d6773a5", 
+                            "properties": {
+                                "hashes": [
+                                    {
+                                        "simple_hash_value": "9855c23be2b6f38630756a277b52cdd2", 
+                                        "type": {
+                                            "xsi:type": "cyboxVocabs:HashNameVocab-1.0", 
+                                            "value": "MD5"
+                                        }
+                                    }
+                                ], 
+                                "xsi:type": "FileObjectType"
+                            }
+                        }, 
+                        "id": "openioc:Observable-94533f50-27fe-45bc-8026-4caf690e4237"
+                    }, 
+                    {
+                        "object": {
+                            "id": "openioc:File-1e8f272c-47d5-4c99-9df8-a7ed04270677", 
+                            "properties": {
+                                "hashes": [
+                                    {
+                                        "simple_hash_value": "acb81bee009b09b2a0688f05ea45851f", 
+                                        "type": {
+                                            "xsi:type": "cyboxVocabs:HashNameVocab-1.0", 
+                                            "value": "MD5"
+                                        }
+                                    }
+                                ], 
+                                "xsi:type": "FileObjectType"
+                            }
+                        }, 
+                        "id": "openioc:Observable-a8326b1d-01f8-4d28-bf77-82ba2fb21c7a"
+                    }, 
+                    {
+                        "id": "openioc:item-3902a731-260b-49e8-84a5-77d2a420716e", 
+                        "observable_composition": {
+                            "operator": "AND", 
+                            "observables": [
+                                {
+                                    "id": "openioc:Observable-ca3167c3-1e44-4594-ab77-d621f9ac83d3", 
+                                    "description": "Error|Ignore. IndicatorItem not translated. Encountered IOC term 'FileItem/PEInfo/Sections/Section/Name' , which does not currently map to CybOX."
+                                }, 
+                                {
+                                    "id": "openioc:Observable-a7f834fe-89d8-4b00-b99f-1e5a031d1b0a", 
+                                    "description": "Error|Ignore. IndicatorItem not translated. Encountered IOC term 'FileItem/PEInfo/DetectedAnomalies/string' , which does not currently map to CybOX."
+                                }, 
+                                {
+                                    "id": "openioc:Observable-ec4b8170-35fa-4893-8cfe-919abf2c8725", 
+                                    "description": "Error|Ignore. IndicatorItem not translated. Encountered IOC term 'FileItem/PEInfo/Sections/Section/Name' , which does not currently map to CybOX."
+                                }, 
+                                {
+                                    "id": "openioc:item-d9ed6d3a-7141-418d-9ee9-79254b45348a", 
+                                    "observable_composition": {
+                                        "operator": "OR", 
+                                        "observables": [
+                                            {
+                                                "object": {
+                                                    "id": "openioc:File-c1eb7abe-188c-4349-abf2-f3adb6ebb636", 
+                                                    "properties": {
+                                                        "file_name": {
+                                                            "condition": "Equals", 
+                                                            "value": "wbc.exe"
+                                                        }, 
+                                                        "xsi:type": "FileObjectType"
+                                                    }
+                                                }, 
+                                                "id": "openioc:Observable-5742e77e-d2a3-4d1f-96e5-25c46059e968"
+                                            }, 
+                                            {
+                                                "object": {
+                                                    "id": "openioc:File-3a170890-6b49-4d99-a7e9-28ecff1cc071", 
+                                                    "properties": {
+                                                        "file_name": {
+                                                            "condition": "Equals", 
+                                                            "value": "ccapp.exe"
+                                                        }, 
+                                                        "xsi:type": "FileObjectType"
+                                                    }
+                                                }, 
+                                                "id": "openioc:Observable-c3161f0d-522e-4bce-b4ec-d7e512b71819"
+                                            }
+                                        ]
+                                    }
+                                }, 
+                                {
+                                    "id": "openioc:item-05a19916-392a-4835-8be2-1ab385005912", 
+                                    "observable_composition": {
+                                        "operator": "OR", 
+                                        "observables": [
+                                            {
+                                                "object": {
+                                                    "id": "openioc:File-15a7fd96-2b0b-48e2-91b3-1804bed13a0f", 
+                                                    "properties": {
+                                                        "xsi:type": "FileObjectType", 
+                                                        "file_path": {
+                                                            "condition": "Contains", 
+                                                            "value": "WINDOWS"
+                                                        }
+                                                    }
+                                                }, 
+                                                "id": "openioc:Observable-327a66f7-c778-4d29-baa4-8ccf21f8313e"
+                                            }, 
+                                            {
+                                                "object": {
+                                                    "id": "openioc:File-f2bf86bd-016e-4992-ae34-040c625b1dd8", 
+                                                    "properties": {
+                                                        "xsi:type": "FileObjectType", 
+                                                        "file_path": {
+                                                            "condition": "Contains", 
+                                                            "value": "WINNT"
+                                                        }
+                                                    }
+                                                }, 
+                                                "id": "openioc:Observable-c6175c39-7bf3-48c8-9520-87fd1a2f31c6"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ], 
+    "major_version": 2, 
+    "update_version": 0, 
+    "minor_version": 1
+}

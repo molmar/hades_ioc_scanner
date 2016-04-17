@@ -1,0 +1,57 @@
+<!--http://www.applicationgroup.com/tutorials/DualListBox/DualListBox_JS_Source.asp-->
+{% extends "layout.html" %}
+{% block body %}
+  {% if session.logged_in %}
+    <script type="text/javascript">
+      function frmSubmit() {
+        document.form1.submit(); }
+    </script>
+    <div class="menubar">
+      <div class="bigbuttons">
+        <a class="btn" href="{{ url_for('scans') }}">Scans</a>
+        <a class="btn" href="{{ url_for('hosts') }}">Hosts</a>>
+        <a class="btn" href="{{ url_for('iocs') }}">IOCs</a>
+      </div>
+      <div class="smallbuttons">
+        <a class="btn" href="{{ url_for('logout') }}">Logout</a>
+      </div>
+    </div>
+    <div class="page">
+    <div class="contentpane">
+      <form name="form1" id="form1" method="post" action="{{ url_for('addhost') }}"> 
+      <h2>Name</h>
+      <div>
+      <input type="text" size="30" name="name" class="selector">
+      </div>
+      <h2>Address</h>
+      <div>
+      <input type="text" size="30" name="address" class="selector">
+      </div>
+      <h2>Port</h>
+      <div>
+      <input type="text" size="30" name="port" class="selector">
+      </div>
+      <h2>Username</h>
+      <div>
+      <input type="text" size="30" name="username" class="selector">
+      </div>
+      <h2>Password</h>
+      <div>
+      <input type="password" size="30" name="password" class="selector">
+      </div>
+      <h2>Type</h>
+      <div>
+      <select name="type" class="selector">
+      <option value="Windows">Windows</option>
+      <option value="Linux">Linux</option>
+      </select> 
+      </div>
+      </form>
+      <input type="button" class="btn" value="Save" onclick="frmSubmit()" />
+    </div>
+    <div class="datapane">
+      data...
+    </div>
+    </div>
+  {% endif %}
+{% endblock %}

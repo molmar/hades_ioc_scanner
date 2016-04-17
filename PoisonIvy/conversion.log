@@ -1,0 +1,960 @@
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+
+Unexpected error while creating report file
+Traceback (most recent call last):
+  File "/home/hades/hades_werkstatt/stixparser.py", line 172, in parse
+    strip_observables(iocfile)
+  File "/home/hades/hades_werkstatt/stixparser.py", line 129, in strip_observables
+    pkg = STIXPackage.from_xml(pkg_path)
+  File "/usr/local/lib/python2.7/dist-packages/stix/core/stix_package.py", line 508, in from_xml
+    return entity_parser.parse_xml(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 249, in parse_xml
+    root = get_etree_root(xml_file, encoding=encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 92, in get_etree_root
+    tree = get_etree(doc, encoding)
+  File "/usr/local/lib/python2.7/dist-packages/stix/utils/parser.py", line 70, in get_etree
+    return etree.parse(doc, parser=parser)
+  File "lxml.etree.pyx", line 3239, in lxml.etree.parse (src/lxml/lxml.etree.c:69955)
+  File "parser.pxi", line 1748, in lxml.etree._parseDocument (src/lxml/lxml.etree.c:102066)
+  File "parser.pxi", line 1774, in lxml.etree._parseDocumentFromURL (src/lxml/lxml.etree.c:102330)
+  File "parser.pxi", line 1678, in lxml.etree._parseDocFromFile (src/lxml/lxml.etree.c:101365)
+  File "parser.pxi", line 1110, in lxml.etree._BaseParser._parseDocFromFile (src/lxml/lxml.etree.c:96817)
+  File "parser.pxi", line 582, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:91275)
+  File "parser.pxi", line 683, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:92461)
+  File "parser.pxi", line 620, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:91722)
+IOError: Error reading file 'C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml': failed to load external entity "C:\Users\Malmortius\Downloads\poison_ivy-stix-1.2\Poison Ivy\fireeye-pivy-report-with-indicators.xml"
+

@@ -1,0 +1,303 @@
+{
+    "observables": [
+        {
+            "id": "openioc:item-73bc8d65-826b-48d2-b4a8-48918e29e323", 
+            "observable_composition": {
+                "operator": "OR", 
+                "observables": [
+                    {
+                        "id": "openioc:Observable-112a6026-8001-477f-a6cd-3e36dab48d04", 
+                        "description": "Error|Ignore. IndicatorItem not translated. Encountered IOC term 'FileItem/PEInfo/Sections/Section/Name' , which does not currently map to CybOX."
+                    }, 
+                    {
+                        "object": {
+                            "id": "openioc:File-d3034ce0-cd4c-4e2f-8c52-e0c4b2fb72f2", 
+                            "properties": {
+                                "file_name": {
+                                    "condition": "Contains", 
+                                    "value": "mdmcpq3.PNF"
+                                }, 
+                                "xsi:type": "FileObjectType"
+                            }
+                        }, 
+                        "id": "openioc:Observable-f10ea95c-06f5-4866-8724-e67f165e61ab"
+                    }, 
+                    {
+                        "object": {
+                            "id": "openioc:File-27542fdb-b838-4d78-918c-2bb4d6d1193a", 
+                            "properties": {
+                                "file_name": {
+                                    "condition": "Contains", 
+                                    "value": "mdmeric3.PNF"
+                                }, 
+                                "xsi:type": "FileObjectType"
+                            }
+                        }, 
+                        "id": "openioc:Observable-d9cad5cc-2af8-476d-bea9-6a7326e71dae"
+                    }, 
+                    {
+                        "object": {
+                            "id": "openioc:File-13f73997-0126-4eed-a987-0a75bce483ab", 
+                            "properties": {
+                                "file_name": {
+                                    "condition": "Contains", 
+                                    "value": "oem6C.PNF"
+                                }, 
+                                "xsi:type": "FileObjectType"
+                            }
+                        }, 
+                        "id": "openioc:Observable-3da32cbd-ab06-460b-8950-f1077b11fb50"
+                    }, 
+                    {
+                        "object": {
+                            "id": "openioc:File-4c112c6a-92e4-4540-b3bd-6e8243211e04", 
+                            "properties": {
+                                "file_name": {
+                                    "condition": "Contains", 
+                                    "value": "oem7A.PNF"
+                                }, 
+                                "xsi:type": "FileObjectType"
+                            }
+                        }, 
+                        "id": "openioc:Observable-9a03ef4c-0206-4d40-badb-a3b2814d44f9"
+                    }, 
+                    {
+                        "id": "openioc:item-422ae9bf-a1ae-41f2-8e54-5b4c6f3e1598", 
+                        "observable_composition": {
+                            "operator": "AND", 
+                            "observables": [
+                                {
+                                    "object": {
+                                        "id": "openioc:WinDriver-3359c5ab-c7e9-4e69-ad63-a14416238ccc", 
+                                        "properties": {
+                                            "xsi:type": "WindowsDriverObjectType", 
+                                            "device_object_list": [
+                                                {
+                                                    "attached_to_driver_name": {
+                                                        "condition": "Contains", 
+                                                        "value": "fs_rec.sys"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-ed20f588-64f8-4a05-8da5-cc6a122bc55b"
+                                }, 
+                                {
+                                    "object": {
+                                        "id": "openioc:WinDriver-8a3f2f68-b52e-4454-af01-a78093d572d7", 
+                                        "properties": {
+                                            "xsi:type": "WindowsDriverObjectType", 
+                                            "device_object_list": [
+                                                {
+                                                    "attached_to_driver_name": {
+                                                        "condition": "Contains", 
+                                                        "value": "mrxsmb.sys"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-59e90c42-0380-424a-9bf7-5fc9646f0603"
+                                }, 
+                                {
+                                    "object": {
+                                        "id": "openioc:WinDriver-4195bea4-a0d6-4503-beb9-7a450c02aec4", 
+                                        "properties": {
+                                            "xsi:type": "WindowsDriverObjectType", 
+                                            "device_object_list": [
+                                                {
+                                                    "attached_to_driver_name": {
+                                                        "condition": "Contains", 
+                                                        "value": "sr.sys"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-9b59e262-72e6-4da7-9ba3-e6c99d8be8ac"
+                                }, 
+                                {
+                                    "object": {
+                                        "id": "openioc:WinDriver-eb1415c3-e944-4535-8f44-f77e910513a0", 
+                                        "properties": {
+                                            "xsi:type": "WindowsDriverObjectType", 
+                                            "device_object_list": [
+                                                {
+                                                    "attached_to_driver_name": {
+                                                        "condition": "Contains", 
+                                                        "value": "fastfat.sys"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-242f624e-1202-4d09-a3b8-192e59c1a426"
+                                }
+                            ]
+                        }
+                    }, 
+                    {
+                        "id": "openioc:item-eb585bf5-18d8-4837-baf0-80ac74104ca3", 
+                        "observable_composition": {
+                            "operator": "AND", 
+                            "observables": [
+                                {
+                                    "object": {
+                                        "id": "openioc:File-144c0a61-327d-46b8-b2dc-6187c5642cc3", 
+                                        "properties": {
+                                            "file_name": {
+                                                "condition": "Contains", 
+                                                "value": "mrxcls.sys"
+                                            }, 
+                                            "xsi:type": "FileObjectType"
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-58f6ff3d-f7b7-4779-8d05-835e37c76cf7"
+                                }, 
+                                {
+                                    "object": {
+                                        "id": "openioc:WinExecutableFile-b276afa3-53fa-47b0-b8f8-967e66a9e1a5", 
+                                        "properties": {
+                                            "xsi:type": "WindowsExecutableFileObjectType", 
+                                            "digital_signature": {
+                                                "certificate_subject": {
+                                                    "condition": "Contains", 
+                                                    "value": "Realtek Semiconductor Corp"
+                                                }
+                                            }
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-f0a3566e-cd32-4b04-9bd1-f43bc08a7281"
+                                }
+                            ]
+                        }
+                    }, 
+                    {
+                        "id": "openioc:item-bc8d06dd-f879-4609-bb1c-eccded0222ce", 
+                        "observable_composition": {
+                            "operator": "AND", 
+                            "observables": [
+                                {
+                                    "object": {
+                                        "id": "openioc:File-1493979e-8051-43d4-a464-11bef7dabc5e", 
+                                        "properties": {
+                                            "file_name": {
+                                                "condition": "Contains", 
+                                                "value": "mrxnet.sys"
+                                            }, 
+                                            "xsi:type": "FileObjectType"
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-701447a0-6aed-4a08-8325-2eae13f34bcc"
+                                }, 
+                                {
+                                    "object": {
+                                        "id": "openioc:WinExecutableFile-b4ef6c7b-9ed0-487d-924c-81bae36b98d5", 
+                                        "properties": {
+                                            "xsi:type": "WindowsExecutableFileObjectType", 
+                                            "digital_signature": {
+                                                "certificate_subject": {
+                                                    "condition": "Contains", 
+                                                    "value": "Realtek Semiconductor Corp"
+                                                }
+                                            }
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-31efa396-294f-4a2e-b30f-f3ac2bd17def"
+                                }
+                            ]
+                        }
+                    }, 
+                    {
+                        "id": "openioc:item-00538c36-88fe-42ea-a70f-136a2fb53834", 
+                        "observable_composition": {
+                            "operator": "AND", 
+                            "observables": [
+                                {
+                                    "object": {
+                                        "id": "openioc:WinRegistryKey-c74dadaa-faa7-4034-9a5d-7517838164b5", 
+                                        "properties": {
+                                            "xsi:type": "WindowsRegistryKeyObjectType", 
+                                            "hive": {
+                                                "condition": "Equals", 
+                                                "value": "HKEY_LOCAL_MACHINE"
+                                            }, 
+                                            "key": {
+                                                "condition": "Contains", 
+                                                "value": "SYSTEM\\ControlSet001\\Services\\MRxCls\\ImagePath"
+                                            }
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-40040527-5dee-4c85-acf4-db512bcff935"
+                                }, 
+                                {
+                                    "object": {
+                                        "id": "openioc:WinRegistryKey-9aefb9e6-9404-459b-94ac-c428db9d99b3", 
+                                        "properties": {
+                                            "xsi:type": "WindowsRegistryKeyObjectType", 
+                                            "values": [
+                                                {
+                                                    "data": {
+                                                        "condition": "Contains", 
+                                                        "value": "mrxcls.sys"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-3afefcf0-22ba-4521-9f42-060d26fd0e83"
+                                }
+                            ]
+                        }
+                    }, 
+                    {
+                        "id": "openioc:item-d8d9b32c-f648-4552-9805-93c05ed48219", 
+                        "observable_composition": {
+                            "operator": "AND", 
+                            "observables": [
+                                {
+                                    "object": {
+                                        "id": "openioc:WinRegistryKey-148437de-19b7-4127-a86f-bfa39be6a275", 
+                                        "properties": {
+                                            "xsi:type": "WindowsRegistryKeyObjectType", 
+                                            "hive": {
+                                                "condition": "Equals", 
+                                                "value": "HKEY_LOCAL_MACHINE"
+                                            }, 
+                                            "key": {
+                                                "condition": "Contains", 
+                                                "value": "SYSTEM\\ControlSet001\\Services\\MRxNet\\ImagePath"
+                                            }
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-35943496-aa89-4b16-95c8-6c5b73fa6952"
+                                }, 
+                                {
+                                    "object": {
+                                        "id": "openioc:WinRegistryKey-759905a5-5915-45ad-8232-e5649f178301", 
+                                        "properties": {
+                                            "xsi:type": "WindowsRegistryKeyObjectType", 
+                                            "values": [
+                                                {
+                                                    "data": {
+                                                        "condition": "Contains", 
+                                                        "value": "mrxnet.sys"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-2f1c2db1-cac0-45da-8a26-ae350888515e"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ], 
+    "major_version": 2, 
+    "update_version": 0, 
+    "minor_version": 1
+}

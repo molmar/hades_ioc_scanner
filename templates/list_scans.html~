@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block body %}
+  <div class="menubar">
+    <div class="bigbuttons">
+      <a class="btn" href="{{ url_for('scans') }}">Scans</a>
+      <a class="btn" href="{{ url_for('hosts') }}">Hosts</a>
+      <a class="btn" href="{{ url_for('iocs') }}">IOCs</a>
+    </div>
+    <div class="smallbuttons">
+      <a class="btn",  href="{{ url_for('createscan') }}">New</a>
+      <a class="btn">Delete</a>
+      <a class="btn", href="{{ url_for('logout') }}">Logout</a>
+    </div>
+  </div>
+  <div class="page">
+  <div class="contentpane">
+    {% for scan in scans %}
+      <div class="entry"><a href="{{ url_for('showscan') }}?id={{ scan.id }}">{{ scan.name }}</a> - {{ scan.date|safe }}</div>
+    {% else %}
+      <div>No scans here so far</div>
+    {% endfor %}
+  </div>
+  <div class="datapane">
+    data...
+  </div>
+  </div>
+{% endblock %}

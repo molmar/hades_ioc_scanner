@@ -1,0 +1,516 @@
+{
+    "observables": [
+        {
+            "id": "openioc:item-05c79430-5f11-4cd0-b37b-f98252318760", 
+            "observable_composition": {
+                "operator": "OR", 
+                "observables": [
+                    {
+                        "object": {
+                            "id": "openioc:File-5420c7cc-b9ab-4bd6-8184-e5f442218708", 
+                            "properties": {
+                                "file_name": {
+                                    "condition": "Equals", 
+                                    "value": "shelldc.dll"
+                                }, 
+                                "xsi:type": "FileObjectType"
+                            }
+                        }, 
+                        "id": "openioc:Observable-2b3f9347-47f9-474a-a1e1-77d2d4a07ec9"
+                    }, 
+                    {
+                        "object": {
+                            "id": "openioc:File-da29bfaf-af8d-4d09-9fc1-609cf9a7db62", 
+                            "properties": {
+                                "file_name": {
+                                    "condition": "Equals", 
+                                    "value": "recyle64.dll"
+                                }, 
+                                "xsi:type": "FileObjectType"
+                            }
+                        }, 
+                        "id": "openioc:Observable-43d3d6f2-e80a-4cec-9b01-0d197f0a5600"
+                    }, 
+                    {
+                        "object": {
+                            "id": "openioc:File-952109a9-808e-490c-9066-e2bfa8b6abb7", 
+                            "properties": {
+                                "file_name": {
+                                    "condition": "Equals", 
+                                    "value": "ws_18.dll"
+                                }, 
+                                "xsi:type": "FileObjectType"
+                            }
+                        }, 
+                        "id": "openioc:Observable-5576fef5-4843-4edb-9154-0937e065bd2b"
+                    }, 
+                    {
+                        "object": {
+                            "id": "openioc:WinService-4e046a39-e679-405e-849c-a44442b691bc", 
+                            "properties": {
+                                "service_name": {
+                                    "condition": "Equals", 
+                                    "value": "las"
+                                }, 
+                                "xsi:type": "WindowsServiceObjectType"
+                            }
+                        }, 
+                        "id": "openioc:Observable-92cd2ef4-44be-4d6c-9d05-5327afdd8646"
+                    }, 
+                    {
+                        "object": {
+                            "id": "openioc:WinProcess-8a497ef5-0ad1-4670-9037-114b7c8790dc", 
+                            "properties": {
+                                "handle_list": [
+                                    {
+                                        "xsi:type": "WindowsHandleObjectType", 
+                                        "name": {
+                                            "condition": "Contains", 
+                                            "value": "shelldc"
+                                        }
+                                    }
+                                ], 
+                                "xsi:type": "WindowsProcessObjectType"
+                            }
+                        }, 
+                        "id": "openioc:Observable-c4b6ffb9-904a-425a-a3f6-c0c971673f2b"
+                    }, 
+                    {
+                        "object": {
+                            "id": "openioc:WinProcess-c6b1d30d-1597-40f6-8c85-edb533dd3901", 
+                            "properties": {
+                                "handle_list": [
+                                    {
+                                        "xsi:type": "WindowsHandleObjectType", 
+                                        "name": {
+                                            "condition": "Contains", 
+                                            "value": "NT1630"
+                                        }
+                                    }
+                                ], 
+                                "xsi:type": "WindowsProcessObjectType"
+                            }
+                        }, 
+                        "id": "openioc:Observable-4c227569-4d01-46a2-873a-974490f5d4b9"
+                    }, 
+                    {
+                        "object": {
+                            "id": "openioc:WinProcess-773fe4aa-f724-4b04-af79-da734aa2bf61", 
+                            "properties": {
+                                "handle_list": [
+                                    {
+                                        "xsi:type": "WindowsHandleObjectType", 
+                                        "name": {
+                                            "condition": "Contains", 
+                                            "value": "shellsa"
+                                        }
+                                    }
+                                ], 
+                                "xsi:type": "WindowsProcessObjectType"
+                            }
+                        }, 
+                        "id": "openioc:Observable-476c7785-b653-4a6b-a0d6-1c1c2d419cf1"
+                    }, 
+                    {
+                        "object": {
+                            "id": "openioc:File-ce4204bc-bbed-4b2a-836e-3629a362f70b", 
+                            "properties": {
+                                "file_name": {
+                                    "condition": "Contains", 
+                                    "value": "ws_data.dll"
+                                }, 
+                                "xsi:type": "FileObjectType"
+                            }
+                        }, 
+                        "id": "openioc:Observable-2605febb-e368-471a-8341-a91d537609ad"
+                    }, 
+                    {
+                        "object": {
+                            "id": "openioc:WinService-9be61fc4-ba4b-4b5b-842f-f3ad440006dc", 
+                            "properties": {
+                                "service_name": {
+                                    "condition": "Equals", 
+                                    "value": "ASP.NET Service"
+                                }, 
+                                "xsi:type": "WindowsServiceObjectType"
+                            }
+                        }, 
+                        "id": "openioc:Observable-19d35e65-85f3-44fa-a3c9-b7615f44ff20"
+                    }, 
+                    {
+                        "object": {
+                            "id": "openioc:WinService-ffd17609-65fb-4026-8067-300f8b0fed2e", 
+                            "properties": {
+                                "service_name": {
+                                    "condition": "Equals", 
+                                    "value": "ASP.NET Services"
+                                }, 
+                                "xsi:type": "WindowsServiceObjectType"
+                            }
+                        }, 
+                        "id": "openioc:Observable-20562262-2083-4fa9-b13b-6fa7d874b19d"
+                    }, 
+                    {
+                        "object": {
+                            "id": "openioc:WinService-0fc8d64f-ef57-4538-aeb4-b638d59a211d", 
+                            "properties": {
+                                "xsi:type": "WindowsServiceObjectType", 
+                                "description_list": [
+                                    "Enables Help and Support Center to run Officescan on this computer "
+                                ]
+                            }
+                        }, 
+                        "id": "openioc:Observable-be39da0b-0739-4086-805a-03a9c410d091"
+                    }, 
+                    {
+                        "object": {
+                            "id": "openioc:WinService-91fd9140-36ea-4ade-b664-fbac9e9b9ce9", 
+                            "properties": {
+                                "xsi:type": "WindowsServiceObjectType", 
+                                "description_list": [
+                                    "Provides network installation services such as Assign, Publish, and Remove"
+                                ]
+                            }
+                        }, 
+                        "id": "openioc:Observable-5c60886d-972d-4c91-8d47-e9ccbe75b2a6"
+                    }, 
+                    {
+                        "object": {
+                            "id": "openioc:File-1ef3ed76-91c5-4cf2-82b4-cb13476cdc00", 
+                            "properties": {
+                                "xsi:type": "FileObjectType", 
+                                "full_path": {
+                                    "condition": "Contains", 
+                                    "value": "WINDOWS\\Temp\\svchost.exe"
+                                }
+                            }
+                        }, 
+                        "id": "openioc:Observable-91678c52-8266-4d23-b5e7-67c4c2a5fd96"
+                    }, 
+                    {
+                        "object": {
+                            "id": "openioc:File-aaa30586-0c8f-4976-b29b-a7ec7880c0be", 
+                            "properties": {
+                                "xsi:type": "FileObjectType", 
+                                "full_path": {
+                                    "condition": "Contains", 
+                                    "value": "WINNT\\Temp\\svchost.exe"
+                                }
+                            }
+                        }, 
+                        "id": "openioc:Observable-9c4ce42e-001c-4a32-b37d-1a401d5b864d"
+                    }, 
+                    {
+                        "id": "openioc:item-ede8605e-c316-4277-9791-81e8db97b137", 
+                        "observable_composition": {
+                            "operator": "AND", 
+                            "observables": [
+                                {
+                                    "id": "openioc:Observable-70ca4ec8-b14e-485d-9d05-cee2b86bca6f", 
+                                    "description": "Error|Ignore. IndicatorItem not translated. Encountered IOC term 'FileItem/PEInfo/Exports/NumberOfFunctions' , which does not currently map to CybOX."
+                                }, 
+                                {
+                                    "object": {
+                                        "id": "openioc:WinExecutableFile-7e47cab8-b0a3-4b15-884a-90b745ee6735", 
+                                        "properties": {
+                                            "exports": {
+                                                "exported_functions": [
+                                                    {
+                                                        "function_name": {
+                                                            "condition": "Equals", 
+                                                            "value": "ServiceMain"
+                                                        }
+                                                    }
+                                                ]
+                                            }, 
+                                            "xsi:type": "WindowsExecutableFileObjectType"
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-f35140ee-e473-452f-9b0e-d7f89078db7f"
+                                }, 
+                                {
+                                    "object": {
+                                        "id": "openioc:WinExecutableFile-04950654-a70d-48f6-a2b6-852655f33211", 
+                                        "properties": {
+                                            "imports": [
+                                                {
+                                                    "imported_functions": [
+                                                        {
+                                                            "function_name": {
+                                                                "condition": "Equals", 
+                                                                "value": "BitBlt"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ], 
+                                            "xsi:type": "WindowsExecutableFileObjectType"
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-ae0ffc2b-9ba7-4e48-946f-5f3964e3fb41"
+                                }, 
+                                {
+                                    "object": {
+                                        "id": "openioc:WinExecutableFile-68b1e5fc-7bb1-4cdc-bab5-045eeed86f84", 
+                                        "properties": {
+                                            "imports": [
+                                                {
+                                                    "imported_functions": [
+                                                        {
+                                                            "function_name": {
+                                                                "condition": "Equals", 
+                                                                "value": "GetDlBits"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ], 
+                                            "xsi:type": "WindowsExecutableFileObjectType"
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-a4a18b08-b64e-4930-a049-e4cb2032a6d1"
+                                }
+                            ]
+                        }
+                    }, 
+                    {
+                        "id": "openioc:item-20a9ad4e-4f38-4127-8cfd-f4bd5216f715", 
+                        "observable_composition": {
+                            "operator": "AND", 
+                            "observables": [
+                                {
+                                    "object": {
+                                        "id": "openioc:WinService-a3047095-d7b4-4b48-a06a-0519a6dc1657", 
+                                        "properties": {
+                                            "service_name": {
+                                                "condition": "Equals", 
+                                                "value": "Iprip"
+                                            }, 
+                                            "xsi:type": "WindowsServiceObjectType"
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-f6ada8d1-d2cb-4856-a417-8620f3331044"
+                                }, 
+                                {
+                                    "id": "openioc:Observable-a011b068-ab9d-475c-bcde-558669b3f058", 
+                                    "description": "Error|Ignore. IndicatorItem not translated. Encountered IOC term 'ServiceItem/descriptiveName' , which does not currently map to CybOX."
+                                }
+                            ]
+                        }
+                    }, 
+                    {
+                        "id": "openioc:item-ad0924ee-b372-443d-996f-c3ee0f4e7146", 
+                        "observable_composition": {
+                            "operator": "AND", 
+                            "observables": [
+                                {
+                                    "object": {
+                                        "id": "openioc:WinService-d2484b43-46d9-4552-b75a-c4d44af3b9bd", 
+                                        "properties": {
+                                            "service_name": {
+                                                "condition": "Equals", 
+                                                "value": "6to4"
+                                            }, 
+                                            "xsi:type": "WindowsServiceObjectType"
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-b9a391b8-3492-45f7-8f1e-542bd0c0c52e"
+                                }, 
+                                {
+                                    "id": "openioc:Observable-a2d73bc2-23c6-486d-acd1-94cb797a3b94", 
+                                    "description": "Error|Ignore. IndicatorItem not translated. Encountered IOC term 'ServiceItem/descriptiveName' , which does not currently map to CybOX."
+                                }
+                            ]
+                        }
+                    }, 
+                    {
+                        "id": "openioc:item-8d38cfbd-f0b1-4895-89aa-5ad7aa22dd0f", 
+                        "observable_composition": {
+                            "operator": "AND", 
+                            "observables": [
+                                {
+                                    "object": {
+                                        "id": "openioc:File-caddc7ac-146e-4922-a888-649780ea5e6c", 
+                                        "properties": {
+                                            "size_in_bytes": {
+                                                "condition": "Equals", 
+                                                "value": 21297
+                                            }, 
+                                            "xsi:type": "FileObjectType"
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-206de363-8880-4059-bf96-9b7befb66ee9"
+                                }, 
+                                {
+                                    "object": {
+                                        "id": "openioc:WinExecutableFile-41dc7dcc-e33e-4b28-878f-1836a59adf64", 
+                                        "properties": {
+                                            "headers": {
+                                                "file_header": {
+                                                    "time_date_stamp": {
+                                                        "condition": "Equals", 
+                                                        "value": "2010-03-17T00:40:45Z"
+                                                    }
+                                                }
+                                            }, 
+                                            "xsi:type": "WindowsExecutableFileObjectType"
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-6a251c17-c27d-4e55-83c1-5ece8729ead3"
+                                }
+                            ]
+                        }
+                    }, 
+                    {
+                        "id": "openioc:item-dcb5d947-f311-42f7-a523-358926a93fb9", 
+                        "observable_composition": {
+                            "operator": "AND", 
+                            "observables": [
+                                {
+                                    "object": {
+                                        "id": "openioc:File-453e0d1e-6eb7-4d28-9da0-ef029d9edbcd", 
+                                        "properties": {
+                                            "size_in_bytes": {
+                                                "condition": "Equals", 
+                                                "value": 20753
+                                            }, 
+                                            "xsi:type": "FileObjectType"
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-e9d13c67-18e2-412f-8923-8c347e076cb9"
+                                }, 
+                                {
+                                    "object": {
+                                        "id": "openioc:WinExecutableFile-afe288d0-4026-4030-8389-de260539dfc9", 
+                                        "properties": {
+                                            "headers": {
+                                                "file_header": {
+                                                    "time_date_stamp": {
+                                                        "condition": "Equals", 
+                                                        "value": "2010-03-09T08:21:42Z"
+                                                    }
+                                                }
+                                            }, 
+                                            "xsi:type": "WindowsExecutableFileObjectType"
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-a7c6bd86-8681-4410-9f72-692ec3e40293"
+                                }
+                            ]
+                        }
+                    }, 
+                    {
+                        "id": "openioc:item-462290aa-3316-4066-98ac-09f00d9e5a6b", 
+                        "observable_composition": {
+                            "operator": "AND", 
+                            "observables": [
+                                {
+                                    "object": {
+                                        "id": "openioc:File-fbc9c9dc-66e9-421f-bb2b-bc7782a751dc", 
+                                        "properties": {
+                                            "file_name": {
+                                                "condition": "Contains", 
+                                                "value": "gzg"
+                                            }, 
+                                            "xsi:type": "FileObjectType"
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-64b43a06-fdda-4e69-a306-a23a5d0e6843"
+                                }, 
+                                {
+                                    "object": {
+                                        "id": "openioc:File-1cdbd30a-d79e-4a5f-8ea0-b636efdb7b23", 
+                                        "properties": {
+                                            "file_extension": {
+                                                "condition": "DoesNotContain", 
+                                                "value": "exe"
+                                            }, 
+                                            "xsi:type": "FileObjectType"
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-0ccc3341-6f9a-40dd-b45d-1bd3b13a7b58"
+                                }, 
+                                {
+                                    "object": {
+                                        "id": "openioc:File-935daff9-4508-424f-a119-4a13ad91f79b", 
+                                        "properties": {
+                                            "file_extension": {
+                                                "condition": "DoesNotContain", 
+                                                "value": "dll"
+                                            }, 
+                                            "xsi:type": "FileObjectType"
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-8b571080-09e9-40d9-b841-e0fcf88b3707"
+                                }, 
+                                {
+                                    "object": {
+                                        "id": "openioc:File-ed7c0498-7e8b-49fa-8c6d-f437c7ebf759", 
+                                        "properties": {
+                                            "file_extension": {
+                                                "condition": "DoesNotContain", 
+                                                "value": "sys"
+                                            }, 
+                                            "xsi:type": "FileObjectType"
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-5d4a5189-8d0a-44e0-97ab-b92aa0f345e0"
+                                }, 
+                                {
+                                    "object": {
+                                        "id": "openioc:File-74ad4887-9621-4a89-829d-651734a4f1ad", 
+                                        "properties": {
+                                            "file_extension": {
+                                                "condition": "DoesNotContain", 
+                                                "value": "ini"
+                                            }, 
+                                            "xsi:type": "FileObjectType"
+                                        }
+                                    }, 
+                                    "id": "openioc:Observable-3759f938-822f-488e-9a1a-6c2dd213823d"
+                                }, 
+                                {
+                                    "id": "openioc:item-4317fe74-379a-4068-b70e-bf89a980d54d", 
+                                    "observable_composition": {
+                                        "operator": "OR", 
+                                        "observables": [
+                                            {
+                                                "object": {
+                                                    "id": "openioc:File-05bcdbc6-ee62-4e95-975d-afda5e7892e3", 
+                                                    "properties": {
+                                                        "xsi:type": "FileObjectType", 
+                                                        "file_path": {
+                                                            "condition": "Contains", 
+                                                            "value": "WINDOWS\\system32"
+                                                        }
+                                                    }
+                                                }, 
+                                                "id": "openioc:Observable-7451f3cc-681a-4a33-9c71-1b4bc3984d57"
+                                            }, 
+                                            {
+                                                "object": {
+                                                    "id": "openioc:File-6080ddf0-e87f-4b08-a619-5771544be45f", 
+                                                    "properties": {
+                                                        "xsi:type": "FileObjectType", 
+                                                        "file_path": {
+                                                            "condition": "Contains", 
+                                                            "value": "WINNT\\system32"
+                                                        }
+                                                    }
+                                                }, 
+                                                "id": "openioc:Observable-ae865991-6d42-49d9-b127-eaa8623b1c2e"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ], 
+    "major_version": 2, 
+    "update_version": 0, 
+    "minor_version": 1
+}
